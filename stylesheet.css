@@ -121,6 +121,31 @@ name {
   vertical-align: middle;
 }
 
+/* General styles for all screen sizes */
+.section-heading {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.section-content {
+  margin-top: -15px;
+}
+
+.section-content td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Reduce space between project rows */
+.project-row + .project-row {
+  margin-top: 10px;
+}
+
+/* Adjust spacing for SaaS rows */
+.saas-row {
+  margin-bottom: 15px;
+}
+
 /* Mobile styles */
 @media only screen and (max-width: 600px) {
   body {
@@ -173,12 +198,6 @@ name {
   .project-row {
     display: flex;
     flex-direction: column;
-  }
-
-  .project-row td {
-    display: block;
-    width: 100% !important;
-    padding: 10px 0 !important;
   }
 
   .project-content {
