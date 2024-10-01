@@ -16,10 +16,13 @@
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
+            <td style="padding:2.5%;width:63%;vertical-align:middle" class="mobile-content">
               <p style="text-align:center">
                 <name>Angus Fung</name>
               </p>
+              <div class="profile-image-container">
+                <a href="images/angus3.png"><img style="width:100%;max-width:200px;display:none;" alt="profile photo" src="images/angus3.png" class="hoverZoomLink mobile-only-image"></a>
+              </div>
               <p>I am a Ph.D candidate at the <a href="https://robotics.utoronto.ca">University of Toronto, Robotics Institute</a>, advised by <a href="http://asblab.mie.utoronto.ca">Goldie Nejat</a>,
                 where I work on robot perception and control using self-supervised learning and generative AI.
               </p>
@@ -52,316 +55,337 @@
                 <a href="https://github.com/angusfung/">Github</a>
               </p>
             </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/angus.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/angus.png" class="hoverZoomLink"></a>
+            <td style="padding:2.5%;width:40%;max-width:40%" class="desktop-image">
+              <a href="images/angus3.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/angus3.png" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
 
-
+        <!-- New mini navigation bar -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-            </td>
-          </tr>
-        </tbody></table>
-
-
-      
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="padding:20px;width:100%;vertical-align:middle;text-align:center;">
+              <a href="#research">Research</a> |
+              <a href="#saas">SaaS Products</a> |
+              <a href="#recognition">Recognition</a> |
+              <a href="#teaching">Teaching</a> |
+              <a href="#mentoring">Mentoring</a>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading id="research">Research</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+          <tr class="project-row">
+            <td class="project-media-cell project-media">
               <div class="one">
-                <div class="two" id='nerfsuper_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/finder.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <video width="160" height="160" muted autoplay loop>
+                <div class="two" id='project_video'>
+                  <video width="100%" height="100%" muted autoplay loop style="object-fit: cover;">
                     <source src="images/finder.mp4" type="video/mp4">
                     Your browser does not support the video tag.
-                </video>
+                  </video>
+                </div>
               </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://find-all-my-things.github.io/">
-                <papertitle>Find Everything: A General Vision Language Model Approach to Multi-Object Search</papertitle>
-              </a>
-              <br>
-              <strong>Angus Fung</strong>,
-              <a href="http://jeongwoongc.github.io">Daniel Choi</a>,
-              <a href="https://scholar.google.ca/citations?user=LA6TYrgAAAAJ&hl=en&authuser=1">Haitong Wang</a>,
-              <a href="https://aarontan-git.github.io">Aaron Hao Tan</a>
-              <br>
-              <em>arXiv (Under Review)</em>, 2024  
-              <br>
-              <a href="https://find-all-my-things.github.io/">Project Page</a>
-              /
-              <a href="data/finder.pdf">Paper</a>
-              <p></p>
-              <p>We present Finder, a novel approach to the multi-object search problem that leverages vision language models (VLMs) to efficiently locate multiple objects in diverse environments. Our method combines semantic mapping with spatio-probabilistic reasoning and adaptive planning, improving object recognition and scene understanding through VLMs.</p>
+            <td style="padding:20px;width:75%;vertical-align:middle" class="project-content">
+              <div class="project-title">
+                <a href="https://find-all-my-things.github.io/">
+                  <papertitle>Find Everything: A General Vision Language Model Approach to Multi-Object Search</papertitle>
+                </a>
+              </div>
+              <div class="project-description">
+                <strong>Angus Fung</strong>,
+                <a href="http://jeongwoongc.github.io">Daniel Choi</a>,
+                <a href="https://scholar.google.ca/citations?user=LA6TYrgAAAAJ&hl=en&authuser=1">Haitong Wang</a>,
+                <a href="https://aarontan-git.github.io">Aaron Hao Tan</a>
+                <br>
+                <em>arXiv (Under Review)</em>, 2024  
+                <br>
+                <a href="https://find-all-my-things.github.io/">Project Page</a>
+                /
+                <a href="data/finder.pdf">Paper</a>
+                <p></p>
+                <p>We present Finder, a novel approach to the multi-object search problem that leverages vision language models (VLMs) to efficiently locate multiple objects in diverse environments. Our method combines semantic mapping with spatio-probabilistic reasoning and adaptive planning, improving object recognition and scene understanding through VLMs.</p>
+              </div>
             </td>
           </tr>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+          <tr class="project-row">
+            <td class="project-media-cell project-media">
               <div class="one">
-                <div class="two" id='nerfsuper_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/ldtrack.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <!-- <img src='images/nerf_supervision.jpg' width="160"> -->
+                <div class="two" id='project_video'>
+                  <video width="100%" height="100%" muted autoplay loop style="object-fit: cover;">
+                    <source src="images/ldtrack.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
               </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="https://arxiv.org/abs/2203.00187"> -->
+            <td style="padding:20px;width:75%;vertical-align:middle" class="project-content">
+              <div class="project-title">
                 <a href="https://arxiv.org/pdf/2402.08774.pdf">
-                <papertitle>LDTrack: Dynamic People Tracking by Service Robots using Diffusion Models</papertitle>
-              </a>
-              <br>
-              <strong>Angus Fung</strong>,
-              <a href="https://scholar.google.ca/citations?user=ONlP52AAAAAJ&hl=en">Beno Benhabib</a>, 
-              <a href="https://scholar.google.ca/citations?user=1pCgjH0AAAAJ&hl=en">Goldie Nejat</a>
-              <br>
-              <em>arXiV (Under Review)</em>, 2024  
-              <br>
-              <a href="https://arxiv.org/pdf/2402.08774.pdf">Paper</a>
-              <p></p>
-              <p>We present a novel people tracking architecture for mobile service robots using conditional latent diffusion models, which we name Latent Diffusion Track (LDTrack), to solve the robotic problem of tracking multiple dynamic people under intraclass variations.</p>
+                  <papertitle>LDTrack: Dynamic People Tracking by Service Robots using Diffusion Models</papertitle>
+                </a>
+              </div>
+              <div class="project-description">
+                <strong>Angus Fung</strong>,
+                <a href="https://scholar.google.ca/citations?user=ONlP52AAAAAJ&hl=en">Beno Benhabib</a>, 
+                <a href="https://scholar.google.ca/citations?user=1pCgjH0AAAAJ&hl=en">Goldie Nejat</a>
+                <br>
+                <em>arXiV (Under Review)</em>, 2024  
+                <br>
+                <a href="https://arxiv.org/pdf/2402.08774.pdf">Paper</a>
+                <p></p>
+                <p>We present a novel people tracking architecture for mobile service robots using conditional latent diffusion models, which we name Latent Diffusion Track (LDTrack), to solve the robotic problem of tracking multiple dynamic people under intraclass variations.</p>
+              </div>
             </td>
           </tr>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+          <tr class="project-row">
+            <td class="project-media-cell project-media">
               <div class="one">
-                <div class="two" id='nerfsuper_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/timclr.mov" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/nerf_supervision.jpg' width="160">
+                <div class="two" id='project_video'>
+                  <video width=100% height=100% muted autoplay loop>
+                    <source src="images/timclr.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
               </div>
             </td>
 
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<!-- <a href="https://arxiv.org/abs/2203.00187"> -->
+            <td style="padding:20px;width:75%;vertical-align:middle" class="project-content">
+              <div class="project-title">
                 <a href="https://arxiv.org/pdf/2203.00187">
-                <papertitle>Robots Autonomously Detecting People: A Multimodal Deep Contrastive Learning Method Robust to Intraclass Variations</papertitle>
-              </a>
-              <br>
-              <strong>Angus Fung</strong>,
-              <a href="https://scholar.google.ca/citations?user=ONlP52AAAAAJ&hl=en">Beno Benhabib</a>, 
-              <a href="https://scholar.google.ca/citations?user=1pCgjH0AAAAJ&hl=en">Goldie Nejat</a>
-              <br>
-              <em>IEEE Robotics and Autonomation Letters + IROS</em>, 2023  
-              <br>
-              <a href="https://arxiv.org/pdf/2203.00187">Paper</a> /
-              <a href="https://www.youtube.com/watch?v=aP7BadmsuBo&t=4s">Talk</a> /
-              <a href="data/timclr_abstract.pdf">Abstract</a> /
-              <a href="data/timclr_poster.pdf">Poster</a>
-              <p></p>
-              <p>We present a novel multimodal person detection architecture to address the mobile robot problem of person detection under intraclass variations (e.g. partial occlusion, varying illumination, pose deformation) by introducing our Temporal Invariant Multimodal Contrastive Learning (TimCLR) method.</p>
+                  <papertitle>Robots Autonomously Detecting People: A Multimodal Deep Contrastive Learning Method Robust to Intraclass Variations</papertitle>
+                </a>
+              </div>
+              <div class="project-description">
+                <strong>Angus Fung</strong>,
+                <a href="https://scholar.google.ca/citations?user=ONlP52AAAAAJ&hl=en">Beno Benhabib</a>, 
+                <a href="https://scholar.google.ca/citations?user=1pCgjH0AAAAJ&hl=en">Goldie Nejat</a>
+                <br>
+                <em>IEEE Robotics and Autonomation Letters + IROS</em>, 2023  
+                <br>
+                <a href="https://arxiv.org/pdf/2203.00187">Paper</a> /
+                <a href="https://www.youtube.com/watch?v=aP7BadmsuBo&t=4s">Talk</a> /
+                <a href="data/timclr_abstract.pdf">Abstract</a> /
+                <a href="data/timclr_poster.pdf">Poster</a>
+                <p></p>
+                <p>We present a novel multimodal person detection architecture to address the mobile robot problem of person detection under intraclass variations (e.g. partial occlusion, varying illumination, pose deformation) by introducing our Temporal Invariant Multimodal Contrastive Learning (TimCLR) method.</p>
+              </div>
             </td>
           </tr>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+          <tr class="project-row">
+            <td class="project-media-cell project-media">
               <div class="one">
-                <div class="two" id='nerfsuper_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/cyb1.mov" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/nerf_supervision.jpg' width="160">
+                <div class="two" id='project_video'>
+                  <video width=100% height=100% muted autoplay loop>
+                    <source src="images/cyb1.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
               </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="http://asblab.mie.utoronto.ca/sites/default/files/FINAL%20VERSION.pdf">
-                <papertitle>A Multi-Robot Person Search System for Finding Multiple Dynamic Users in Human-Centered Environments</papertitle>
-              </a>
-              <br>
-              <a href="https://www.linkedin.com/in/sharaf-mohamed-03507972/?originalSubdomain=ca">Sharaf C Mohamed</a>,
-              <strong>Angus Fung</strong>,
-              <a href="https://scholar.google.ca/citations?user=1pCgjH0AAAAJ&hl=en">Goldie Nejat</a>
-              <br>
-              <em>IEEE Transactions on Cybernetics</em>, 2022  
-              <br>
-							<a href="http://asblab.mie.utoronto.ca/sites/default/files/FINAL%20VERSION.pdf">Paper</a> / 
-							<a href="https://www.youtube.com/watch?v=hsF0qriqFMU">Video</a>
-							<!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
-							<!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				 -->
-              <p></p>
-              <p>We present a novel multi-robot person search system to generate search plans for multi-robot teams to find multiple dynamic users before a deadline.</p>
+            <td style="padding:20px;width:75%;vertical-align:middle" class="project-content">
+              <div class="project-title">
+                <a href="http://asblab.mie.utoronto.ca/sites/default/files/FINAL%20VERSION.pdf">
+                  <papertitle>A Multi-Robot Person Search System for Finding Multiple Dynamic Users in Human-Centered Environments</papertitle>
+                </a>
+              </div>
+              <div class="project-description">
+                <a href="https://www.linkedin.com/in/sharaf-mohamed-03507972/?originalSubdomain=ca">Sharaf C Mohamed</a>,
+                <strong>Angus Fung</strong>,
+                <a href="https://scholar.google.ca/citations?user=1pCgjH0AAAAJ&hl=en">Goldie Nejat</a>
+                <br>
+                <em>IEEE Transactions on Cybernetics</em>, 2022  
+                <br>
+                <a href="http://asblab.mie.utoronto.ca/sites/default/files/FINAL%20VERSION.pdf">Paper</a> / 
+                <a href="https://www.youtube.com/watch?v=hsF0qriqFMU">Video</a>
+                <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+                <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				 -->
+                <p></p>
+                <p>We present a novel multi-robot person search system to generate search plans for multi-robot teams to find multiple dynamic users before a deadline.</p>
+              </div>
             </td>
           </tr>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+          <tr class="project-row">
+            <td class="project-media-cell project-media">
               <div class="one">
-                <div class="two" id='nerfsuper_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/madd.mov" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/nerf_supervision.jpg' width="160">
+                <div class="two" id='project_video'>
+                  <video width=100% height=100% muted autoplay loop>
+                    <source src="images/madd.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
               </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://arxiv.org/pdf/2012.08282.pdf">
-                <papertitle>Robots Understanding Contextual Information in Human-Centered Environments using Weakly Supervised Mask Data Distillation</papertitle>
-              </a>
-              <br>
-              <a href="https://www.linkedin.com/in/sharaf-mohamed-03507972/?originalSubdomain=ca">Daniel Dworakowski</a>,
-              <strong>Angus Fung</strong>,
-              <a href="https://scholar.google.ca/citations?user=1pCgjH0AAAAJ&hl=en">Goldie Nejat</a>
-              <br>
-              <em>International Journal of Computer Vision (IJCV)</em>, 2022  
-              <br>
-							<a href="https://link.springer.com/article/10.1007/s11263-022-01706-5">Paper</a>
-							<!-- <a href="https://www.youtube.com/watch?v=hsF0qriqFMU">video</a> -->
-							<!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
-							<!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				 -->
-              <p></p>
-              <p>We present the novel Weakly Supervised Mask Data Distillation (WeSuperMaDD) architecture for autonomously generating pseudo segmentation labels.</p>
+            <td style="padding:20px;width:75%;vertical-align:middle" class="project-content">
+              <div class="project-title">
+                <a href="https://arxiv.org/pdf/2012.08282.pdf">
+                  <papertitle>Robots Understanding Contextual Information in Human-Centered Environments using Weakly Supervised Mask Data Distillation</papertitle>
+                </a>
+              </div>
+              <div class="project-description">
+                <a href="https://www.linkedin.com/in/sharaf-mohamed-03507972/?originalSubdomain=ca">Daniel Dworakowski</a>,
+                <strong>Angus Fung</strong>,
+                <a href="https://scholar.google.ca/citations?user=1pCgjH0AAAAJ&hl=en">Goldie Nejat</a>
+                <br>
+                <em>International Journal of Computer Vision (IJCV)</em>, 2022  
+                <br>
+                <a href="https://link.springer.com/article/10.1007/s11263-022-01706-5">Paper</a>
+                <!-- <a href="https://www.youtube.com/watch?v=hsF0qriqFMU">video</a> -->
+                <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+                <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				 -->
+                <p></p>
+                <p>We present the novel Weakly Supervised Mask Data Distillation (WeSuperMaDD) architecture for autonomously generating pseudo segmentation labels.</p>
+              </div>
             </td>
           </tr>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+          <tr class="project-row">
+            <td class="project-media-cell project-media">
               <div class="one">
-                <div class="two" id='nerfsuper_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/acdcc.mov" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/acdcc.PNG' width="160">
+                <div class="two" id='project_video'>
+                  <video width=100% height=100% muted autoplay loop>
+                    <source src="images/acdcc.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
               </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://ieeexplore.ieee.org/abstract/document/9197217">
-                <papertitle>AC/DCC : Accurate Calibration of Dynamic Camera Clusters for Visual SLAM</papertitle>
-              </a>
-              <br>
-              <a href="https://scholar.google.ca/citations?user=ZWl8LsEAAAAJ&hl=en">Jason Rebello</a>,
-              <strong>Angus Fung</strong>,
-              <a href="https://www.trailab.utias.utoronto.ca/stevenwaslander">Steven Waslander</a>
-              <br>
-              <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2020  
-              <br>
-							<a href="https://ieeexplore.ieee.org/abstract/document/9197217">Paper</a>
-							<!-- <a href="https://www.youtube.com/watch?v=hsF0qriqFMU">video</a> -->
-							<!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
-							<!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				 -->
-              <p></p>
-              <p>We present a method to calibrate the time-varying extrinsic transformation between any number of cameras and achieves measurement excitation over the entire configuration space of the mechanism resulting in a more accurate calibration.</p>
+            <td style="padding:20px;width:75%;vertical-align:middle" class="project-content">
+              <div class="project-title">
+                <a href="https://ieeexplore.ieee.org/abstract/document/9197217">
+                  <papertitle>AC/DCC : Accurate Calibration of Dynamic Camera Clusters for Visual SLAM</papertitle>
+                </a>
+              </div>
+              <div class="project-description">
+                <a href="https://scholar.google.ca/citations?user=ZWl8LsEAAAAJ&hl=en">Jason Rebello</a>,
+                <strong>Angus Fung</strong>,
+                <a href="https://www.trailab.utias.utoronto.ca/stevenwaslander">Steven Waslander</a>
+                <br>
+                <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2020  
+                <br>
+                <a href="https://ieeexplore.ieee.org/abstract/document/9197217">Paper</a>
+                <!-- <a href="https://www.youtube.com/watch?v=hsF0qriqFMU">video</a> -->
+                <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+                <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				 -->
+                <p></p>
+                <p>We present a method to calibrate the time-varying extrinsic transformation between any number of cameras and achieves measurement excitation over the entire configuration space of the mechanism resulting in a more accurate calibration.</p>
+              </div>
             </td>
           </tr>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+          <tr class="project-row">
+            <td class="project-media-cell project-media">
               <div class="one">
-                <div class="two" id='nerfsuper_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/usar.mov" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/acdcc.PNG' width="160">
+                <div class="two" id='project_video'>
+                  <video width=100% height=100% muted autoplay loop>
+                    <source src="images/usar.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
               </div>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://link.springer.com/article/10.1007/s43154-020-00011-8">
-                <papertitle>Using Deep Learning to Find Victims in Unknown Cluttered Urban Search and Rescue Environments</papertitle>
-              </a>
-              <br>
-              <strong>Angus Fung</strong>,
-              <a href="https://scholar.google.ca/citations?user=ONlP52AAAAAJ&hl=en">Beno Benhabib</a>, 
-              <a href="https://scholar.google.ca/citations?user=1pCgjH0AAAAJ&hl=en">Goldie Nejat</a>
-              <br>
-              <em>Springer Nature</em>, 2020  
-              <br>
-							<a href="https://link.springer.com/article/10.1007/s43154-020-00011-8">Paper</a>
-							<!-- <a href="https://www.youtube.com/watch?v=hsF0qriqFMU">video</a> -->
-							<!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
-							<!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				 -->
-              <p></p>
-              <p>We investigate the first use of deep networks for victim identification in Urban Search and Rescue, for cases of partial occlusions and varying illumination, on a RGB-D dataset obtained by a mobile robot navigating cluttered USAR-like environments.</p>
+            <td style="padding:20px;width:75%;vertical-align:middle" class="project-content">
+              <div class="project-title">
+                <a href="https://link.springer.com/article/10.1007/s43154-020-00011-8">
+                  <papertitle>Using Deep Learning to Find Victims in Unknown Cluttered Urban Search and Rescue Environments</papertitle>
+                </a>
+              </div>
+              <div class="project-description">
+                <strong>Angus Fung</strong>,
+                <a href="https://scholar.google.ca/citations?user=ONlP52AAAAAJ&hl=en">Beno Benhabib</a>, 
+                <a href="https://scholar.google.ca/citations?user=1pCgjH0AAAAJ&hl=en">Goldie Nejat</a>
+                <br>
+                <em>Springer Nature</em>, 2020  
+                <br>
+                <a href="https://link.springer.com/article/10.1007/s43154-020-00011-8">Paper</a>
+                <!-- <a href="https://www.youtube.com/watch?v=hsF0qriqFMU">video</a> -->
+                <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+                <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				 -->
+                <p></p>
+                <p>We investigate the first use of deep networks for victim identification in Urban Search and Rescue, for cases of partial occlusions and varying illumination, on a RGB-D dataset obtained by a mobile robot navigating cluttered USAR-like environments.</p>
+              </div>
             </td>
           </tr>
         </tbody></table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>SaaS (Software as a Service) Products</heading>
+            <td>
+              <heading id="saas">SaaS Products</heading>
             </td>
           </tr>
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="refnerf_stop()" onmouseover="refnerf_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='refnerf_image'><video  width=100% height=100% muted autoplay loop>
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/scholarply_logo.png' width="160">
-              </div>
+
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <tr class="saas-row">
+            <td class="saas-logo">
+              <img src='images/scholarply_logo.png' width="160">
             </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>Scholarply</papertitle>
-                <br>
-                <strong>Angus Fung (Founder)</strong>,
-                <a href="https://aarontan-git.github.io">Aaron Tan</a> (Founder),
-                <br>
-                2023 &nbsp
-                <br>
-                  2023 Q3-4 &nbsp
-                  <br>
-                  <a href="https://scholarply.com/">Scholarply</a> / <a href="images/scholarply_newsletter.jpeg">Newsletter</a> / <a href="https://www.tiktok.com/@the.varsity/video/7306702650840583430?is_from_webapp=1&sender_device=pc&web_id=7322966712234640901">TikTok</a>
-                  <br>
-                  <a href="https://docs.google.com/presentation/d/1HqsTZXIIeu7J2EkMgpsmMI947YwvwM3sJgxDR9XeKWc/edit?usp=share_link">Pitch Deck</a> / <a href="https://youtu.be/vcr5VihgeBQ">Demo</a>
-                  <br>
-
-                <ul>
-                  <li>Accelerating the scholarship application process via LLM agents to help students secure funding while focusing on their studies.</li>
-                  <li>Selected by Microsoft Startup Hub Program, receiving grants worth $150k.</li>
-                </ul>
-
-                </td>
-            </tr>            
-          <tr onmouseout="refnerf_stop()" onmouseover="refnerf_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='refnerf_image'><video  width=100% height=100% muted autoplay loop>
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/one800_logo.png' width="160">
+            <td class="saas-content">
+              <div class="saas-header">
+                <div class="saas-title">Scholarply</div>
+                <div class="saas-founders">
+                  <strong>Angus Fung (Founder)</strong>,
+                  <a href="https://aarontan-git.github.io">Aaron Tan</a> (Founder)
+                </div>
+                <div class="saas-links">
+                  2023 Q3-4 &nbsp;
+                  <a href="https://scholarply.com">Scholarply</a>
+                </div>
               </div>
+              <ul>
+                <li>An AI-powered scholarship application platform that helps students find and apply for scholarships.</li>
+                <li>Leverages LLMs to generate personalized scholarship essays and applications.</li>
+                <li>Gained significant traction with thousands of monthly active users.</li>
+              </ul>
             </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>ONE800</papertitle>
-                <br>
-                <strong>Angus Fung (Founder)</strong>,
-                <a href="https://aarontan-git.github.io">Aaron Tan</a> (Founder),
-                <br>
-                2023 Q1-2 &nbsp
-                <br>
-                <a href="https://efe359.myshopify.com/">ONE800</a> / <a href="https://twitter.com/one800chat">Twitter</a> / <a href="https://www.instagram.com/one800chat/">Instagram</a>
-                <br>
-                <a href="data/one800_deck.pdf">Pitch Deck</a> / <a href="https://youtu.be/Eq4MWiPGJ5s?si=Ps890MJe8P8nZaSv">Demo</a>
-                <br>
+          </tr>
 
-                <ul>
-                  <li>An all-in-one service built in to iMessage aimed at lowering the barrier of entry for LLMs and Generative AI.</li>
-                  <li>Launched multi-modal conversations with proprietary model 4 months before GPT-4V.</li>
-                  <li>Gained significant traction with thousands of monthly active users.</li>
-                </ul>
-                </td>
-            </tr>
-
+          <!-- Repeat this structure for each SaaS product -->
+          <tr class="saas-row">
+            <td class="saas-logo">
+              <img src='images/one800_logo.png' width="160">
+            </td>
+            <td class="saas-content">
+              <div class="saas-header">
+                <div class="saas-title">ONE800</div>
+                <div class="saas-founders">
+                  <strong>Angus Fung (Founder)</strong>,
+                  <a href="https://aarontan-git.github.io">Aaron Tan</a> (Founder)
+                </div>
+                <div class="saas-links">
+                  2023 Q1-2 &nbsp;
+                  <a href="http://3.230.3.191/">ONE800</a> / <a href="https://twitter.com/one800chat">Twitter</a> / <a href="https://www.instagram.com/one800chat/">Instagram</a> / <a href="data/one800_deck.pdf">Pitch Deck</a> / <a href="https://youtu.be/Eq4MWiPGJ5s?si=Ps890MJe8P8nZaSv">Demo</a>
+                </div>
+              </div>
+              <ul>
+                <li>An all-in-one service built in to iMessage aimed at lowering the barrier of entry for LLMs and Generative AI.</li>
+                <li>Launched multi-modal conversations with proprietary model 4 months before GPT-4V.</li>
+                <li>Gained significant traction with thousands of monthly active users.</li>
+              </ul>
+            </td>
+          </tr>
         </tbody></table>
 
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
-              <heading>Recognition</heading>
+              <heading id="recognition">Recognition</heading>
             </td>
           </tr>
         </tbody></table>
@@ -390,7 +414,7 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
-              <heading>Teaching</heading>
+              <heading id="teaching">Teaching</heading>
             </td>
           </tr>
         </tbody></table>
@@ -409,7 +433,7 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
-              <heading>Mentoring</heading>
+              <heading id="mentoring">Mentoring</heading>
             </td>
           </tr>
         </tbody></table>
