@@ -277,3 +277,24 @@ span.highlight {
     display: none !important;
   }
 }
+
+/* ClusterMaps widget styles */
+#clustrmaps-widget-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#clustrmaps-widget {
+  width: 100%;
+  max-width: 300px; /* Adjust this value as needed */
+  height: auto;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+  #clustrmaps-widget {
+    max-width: 200px; /* Smaller size for mobile devices */
+  }
+}
