@@ -215,9 +215,6 @@ span.highlight {
     box-sizing: border-box;
   }
 
-  /* ... other existing mobile styles ... */
-
-  /* SaaS section styles for mobile */
   .saas-row {
     display: flex;
     flex-direction: row;
@@ -249,7 +246,6 @@ span.highlight {
     font-size: 14px;
   }
 
-  /* Override the general table styles for SaaS section */
   .saas-row td {
     display: table-cell !important;
     width: auto !important;
